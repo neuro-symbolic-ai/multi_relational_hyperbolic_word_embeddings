@@ -46,13 +46,21 @@ The full set of automatically annotated definitions and the resulting multi-rela
 If you find this repository useful, please consider citing our paper!
 
 ```
-@misc{valentino2024multirelational,
-      title={Multi-Relational Hyperbolic Word Embeddings from Natural Language Definitions}, 
-      author={Marco Valentino and Danilo S. Carvalho and André Freitas},
-      year={2024},
-      eprint={2305.07303},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{valentino-etal-2024-multi,
+    title = "Multi-Relational Hyperbolic Word Embeddings from Natural Language Definitions",
+    author = "Valentino, Marco  and
+      Carvalho, Danilo  and
+      Freitas, Andre",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.eacl-long.2",
+    pages = "23--34",
+    abstract = "Natural language definitions possess a recursive, self-explanatory semantic structure that can support representation learning methods able to preserve explicit conceptual relations and constraints in the latent space. This paper presents a multi-relational model that explicitly leverages such a structure to derive word embeddings from definitions. By automatically extracting the relations linking defined and defining terms from dictionaries, we demonstrate how the problem of learning word embeddings can be formalised via a translational framework in Hyperbolic space and used as a proxy to capture the global semantic structure of definitions. An extensive empirical analysis demonstrates that the framework can help imposing the desired structural constraints while preserving the semantic mapping required for controllable and interpretable traversal. Moreover, the experiments reveal the superiority of the Hyperbolic word embeddings over the Euclidean counterparts and demonstrate that the multi-relational approach can obtain competitive results when compared to state-of-the-art neural models, with the advantage of being intrinsically more efficient and interpretable",
 }
 ```
 
